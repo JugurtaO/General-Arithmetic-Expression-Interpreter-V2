@@ -14,7 +14,7 @@ CC = gcc
 EXE = calculette 
 
 # flags de compilation (CFLAGS) et d'edition de liens (LDFLAGS)
-CFLAGS +=   -MMD -g -O2
+CFLAGS += -wall  -MMD -g -O2
 LDFLAGS= #-lm
 
 # regle principale: generer l'executable

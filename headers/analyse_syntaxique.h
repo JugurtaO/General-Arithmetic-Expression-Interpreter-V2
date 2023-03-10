@@ -1,5 +1,5 @@
-#include "analyse_lexicale.h"
-#include "lecture_caracteres.h"
+#include "../headers/analyse_lexicale.h"
+#include "../headers/lecture_caracteres.h"
 #include <stdio.h>
 #define MAX_SIZE 100
 typedef enum {C_INIT, C_ENTIER, C_FIN, C_PARO,C_PARF,C_ERROR, C_OPARATEUR} Etat_Automate_Ana ;
